@@ -1,110 +1,91 @@
-/* Global Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #0a0a0a;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkata Sai Varun Banda | Security Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <h1 class="glitch-text">Venkata Sai Varun Banda</h1>
+            <p class="typing">Security Engineer | Ethical Hacker | Red Team Expert</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-/* Header */
-header {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Unveiling Security, One Vulnerability at a Time</h2>
+            <p>Specializing in Offensive Security, Cloud Security, and Red Teaming.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
 
-h1 {
-    margin: 0;
-    font-size: 28px;
-}
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Security Engineer with over 5.5 years of experience in offensive security, Red Teaming, and vulnerability research.</p>
+        </div>
+    </section>
 
-/* Typing Effect */
-.typing {
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 2px solid #4caf50;
-    width: 0;
-    animation: typing 3s steps(40, end) forwards;
-}
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span>🔐 Penetration Testing</span>
+                <span>☁️ Cloud Security</span>
+                <span>💻 Web Security</span>
+                <span>🛡️ Red Teaming</span>
+                <span>🐍 Python</span>
+                <span>📜 OWASP Top 10</span>
+            </div>
+        </div>
+    </section>
 
-/* Keyframe Animation */
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Web App Security Audit</h3>
+                <p>Identified and mitigated critical vulnerabilities in enterprise applications.</p>
+            </div>
+            <div class="project">
+                <h3>API Pentesting</h3>
+                <p>Secured APIs by identifying misconfigurations and implementing authentication controls.</p>
+            </div>
+        </div>
+    </section>
 
-/* Navigation */
-nav ul {
-    list-style: none;
-    padding: 0;
-}
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:varunbvs72@gmail.com">varunbvs72@gmail.com</a></p>
+            <p>Phone: +1 (408) 608-5623</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sai-varun-banda" target="_blank">Sai Varun Banda</a></p>
+        </div>
+    </section>
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #4caf50;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #0ff;
-}
-
-/* Hero Section */
-.hero {
-    background: url('https://source.unsplash.com/1600x900/?cybersecurity,technology') no-repeat center;
-    background-size: cover;
-    padding: 100px 20px;
-}
-
-.hero-content {
-    max-width: 600px;
-    margin: auto;
-}
-
-/* Skills */
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.skills-grid span {
-    background: rgba(0, 255, 0, 0.2);
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-
-/* Projects */
-.project {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    margin: 10px auto;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-}
-
-/* Contact */
-a {
-    color: #4caf50;
-    text-decoration: none;
-}
-
-/* Footer */
-footer {
-    background: #000;
-    padding: 10px;
-    margin-top: 20px;
-}
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Venkata Sai Varun Banda | Security Engineer</p>
+        </div>
+    </footer>
+</body>
+</html>
